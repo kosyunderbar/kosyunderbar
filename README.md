@@ -25,18 +25,18 @@
 ## 🏆 Key Projects
 
 ### 1. 🎓 LUMOS: 대학 생활 맞춤형 AI 챗봇 (AI & MSA)
-> **Hybrid AI(Dialogflow + GPT)와 MSA 아키텍처를 적용한 지능형 학사 도우미 서비스**
-> *AISW 졸업작품 전시회 대상(Grand Prize) 수상 🏆*
+> **다기능 통합 AI(Dialogflow + GPT) 챗봇과 MSA 아키텍처를 적용한 개인화된 대학생활 도우미**
+> *AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등🏆*
 
-* **Period:** 20XX.XX ~ 20XX.XX (졸업작품)
-* **Role:** **Team Leader, Core Backend & AI Engineer**
-    * MSA 아키텍처 설계 및 Django Microservice(Logic Layer) 전담 개발
+* **프로젝트 기간:** 2024.04 ~ 2024.08 (졸업작품)
+* **역할:** **팀 리더, 기능 구현 & AI Engineer**
+    * MSA 아키텍처 설계 및 Django Microservice 전담 개발
     * Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning) 구축
     * 사용자 역량(TECH) 기반 맞춤형 강의 추천 알고리즘 설계 및 구현
-* **Cost/Infra:** AWS EC2, OpenAI API (Fine-tuning Cost Optimized)
+    * Dialogflow를 활용한 AI 챗봇 설계 및 구현
+    * 챗봇 학습과 파인 튜닝, 추천시스템에 필요한 데이터 수집 및 가공
 * **Tech Stack:** `Python` `Django` `Spring Boot(Gateway)` `Dialogflow` `GPT-4` `Docker`
-* **👉 [View Repository & Report](/LUMOS-Chatbot-Repo)**
-
+* **👉 [View Repository](/LUMOS-Chatbot-Repo)**
 ---
 
 ### 2. 🏭 Smart Factory Safety System: AI 기반 제조 안전 시스템
