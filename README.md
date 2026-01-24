@@ -18,17 +18,54 @@
 | :--- | :--- |
 | **Languages** | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | **System & OS** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white) |
-| **AI & Tools** | ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Frameworks & AI** | ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![Dialogflow](https://img.shields.io/badge/Dialogflow-FF9800?style=flat-square&logo=dialogflow&logoColor=white) |
+
+<br>
+
+## 🏆 Key Projects
+
+### 1. 🎓 LUMOS: 대학 생활 맞춤형 AI 챗봇 (AI & MSA)
+> **Hybrid AI(Dialogflow + GPT)와 MSA 아키텍처를 적용한 지능형 학사 도우미 서비스**
+> *AISW 졸업작품 전시회 대상(Grand Prize) 수상 🏆*
+
+* **Period:** 20XX.XX ~ 20XX.XX (졸업작품)
+* **Role:** **Team Leader, Core Backend & AI Engineer**
+    * MSA 아키텍처 설계 및 Django Microservice(Logic Layer) 전담 개발
+    * Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning) 구축
+    * 사용자 역량(TECH) 기반 맞춤형 강의 추천 알고리즘 설계 및 구현
+* **Cost/Infra:** AWS EC2, OpenAI API (Fine-tuning Cost Optimized)
+* **Tech Stack:** `Python` `Django` `Spring Boot(Gateway)` `Dialogflow` `GPT-4` `Docker`
+* **👉 [View Repository & Report](/LUMOS-Chatbot-Repo)**
 
 ---
 
-### 🏆 Key Projects
-| Project | Description | Tech |
-| :--- | :--- | :--- |
-| **[🏭 Smart Factory Safety System](링크)** | **Linux/YOLO 기반 제조 안전 시스템**<br>위험 구역 진입 시 모터/경광등 자동 제어 (캡스톤 수상작) | `Linux` `YOLO` `GPIO` |
-| **[🧩 Algorithm Study](링크)** | **알고리즘 및 자료구조 학습 저장소**<br>백준/프로그래머스 문제 풀이 (C++, Java) | `C++` `Java` |
-| **[🐧 Linux Infra Lab](링크)** | **리눅스 인프라 구축 실습 일지**<br>VMware 환경 구축 및 서버 운영 명령어 정리 | `Ubuntu` `Shell` |
+### 2. 🏭 Smart Factory Safety System: AI 기반 제조 안전 시스템
+> **Linux(Raspberry Pi)와 YOLO Vision AI를 융합한 현장 안전 제어 솔루션**
+> *교내 캡스톤 디자인 경진대회 수상 🏅*
 
+* **Period:** 20XX.XX ~ 20XX.XX (융합 캡스톤 디자인)
+* **Role:** **Team Leader, Embedded & AI Engineer**
+    * 데이터 수집 → AI 학습(YOLO) → HW 제어(GPIO) 전체 파이프라인 구축
+    * 현장 데이터 직접 수집 및 학습을 통한 인식률 개선 (**50% → 92%**)
+    * 인식 결과에 따른 실시간 모터/릴레이 제어 로직(Latency 최소화) 구현
+* **Env/Hardware:** Raspberry Pi 4, Camera Module, Relay/Motor Driver
+* **Tech Stack:** `Linux (Raspberry Pi OS)` `Python` `YOLOv5` `GPIO`
+* **👉 [View Repository](/Smart-Factory-Safety-System)**
+
+---
+
+### 3. 🧩 Algorithm & CS Study: 꾸준한 엔지니어링 학습 기록
+> **기초 체력을 다지기 위한 알고리즘 문제 풀이 및 인프라 실습 아카이브**
+
+* **Algorithm:**
+    * `Java` 및 `C++` 활용 백준/프로그래머스 문제 풀이 (자료구조, 탐색, DP 등)
+    * 문제 해결 과정과 최적화 코드 기록
+* **Linux Infra:**
+    * VMware 기반 리눅스(Ubuntu) 가상 환경 구축 실습
+    * 서버 운영 명령어, 네트워크 설정, 트러블 슈팅 내역 문서화
+* **👉 [Algorithm Repo](/Algorithm-Study)** | **👉 [Linux Lab Repo](/Linux-Infra-Lab)**
+
+<br>
 ---
 
 <div align="center">
