@@ -26,9 +26,10 @@
 
 ### 1. 🎓 LUMOS: 대학 생활 맞춤형 AI 챗봇 (AI & MSA)
 > **다기능 통합 AI(Dialogflow + GPT) 챗봇과 MSA 아키텍처를 적용한 개인화된 대학생활 도우미**
-> *AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등🏆*
+
 
 * **프로젝트 기간:** 2024.04 ~ 2024.08 (졸업작품)
+* **수상 내역:** AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등🏆
 * **역할:** **팀 리더, 기능 구현 & AI Engineer**
     * MSA 아키텍처 설계 및 Django Microservice 전담 개발
     * Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning) 구축
