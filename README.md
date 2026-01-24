@@ -36,7 +36,9 @@
     * 사용자 역량(TECH) 기반 맞춤형 강의 추천 알고리즘 설계 및 구현
     * Dialogflow를 활용한 AI 챗봇 설계 및 구현
     * 챗봇 학습과 파인 튜닝, 추천시스템에 필요한 데이터 수집 및 가공
-* **Tech Stack:** `Python` `Django` `Spring Boot(Gateway)` `Dialogflow` `GPT-4` `Docker`
+* **My Tech Stack:**
+    ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+    ![Dialogflow](https://img.shields.io/badge/Dialogflow-FF9800?style=flat-square&logo=dialogflow&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 * **👉 [View Repository](/LUMOS-Chatbot-Repo)**
 ---
 
