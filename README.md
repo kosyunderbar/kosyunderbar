@@ -28,7 +28,7 @@
 > **다기능 통합 AI(Dialogflow + GPT) 챗봇과 MSA 아키텍처를 적용한 개인화된 대학생활 도우미**
 
 * **프로젝트 기간:** 2024.04 ~ 2024.08 (졸업작품)
-* **수상 내역:** AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등🏆
+* **수상 내역:** AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등 🏆
 * **역할:** **팀 리더, 기능 구현 & AI Engineer**
     * **MSA 아키텍처 설계** 및 Django Microservice 전담 개발
     * **Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning)** 구축
@@ -41,18 +41,20 @@
 * **👉 [View Repository](/LUMOS-Chatbot-Repo)**
 ---
 
-### 2. 🏭 Smart Factory Safety System: AI 기반 제조 안전 시스템
-> **Linux(Raspberry Pi)와 YOLO Vision AI를 융합한 현장 안전 제어 솔루션**
-> *교내 캡스톤 디자인 경진대회 수상 🏅*
+### 2. ♻️ 캠퍼스환경지킴이: AI 기반 재활용 자동화 머신 (Embedded & AI)
+> **YOLOv5 Vision AI와 Raspberry Pi를 융합한 컵 자동 분류 및 처리 로봇**
 
-* **Period:** 20XX.XX ~ 20XX.XX (융합 캡스톤 디자인)
-* **Role:** **Team Leader, Embedded & AI Engineer**
-    * 데이터 수집 → AI 학습(YOLO) → HW 제어(GPIO) 전체 파이프라인 구축
-    * 현장 데이터 직접 수집 및 학습을 통한 인식률 개선 (**50% → 92%**)
-    * 인식 결과에 따른 실시간 모터/릴레이 제어 로직(Latency 최소화) 구현
-* **Env/Hardware:** Raspberry Pi 4, Camera Module, Relay/Motor Driver
-* **Tech Stack:** `Linux (Raspberry Pi OS)` `Python` `YOLOv5` `GPIO`
-* **👉 [View Repository](/Smart-Factory-Safety-System)**
+* **프로젝트 기간:** 2023.04 ~ 2023.10 
+* **수상 내역:** LINC 3.0 캡스톤디자인 경진대회 수상 🏆
+* **역할:** **팀 리더, SW & Embedded Engineer**
+    * **AI Model Engineering:** 현장의 데이터(쓰레기 데이터 등) 수집 및 증강(Augmentation)을 통한 **YOLOv5** 최적화 (종이/플라스틱 분류)
+    * **Real-time Control:** 센서 감지 → AI 판단 → **GPIO/L298N 모터 제어**로 이어지는 실시간 분류 로직(Latency 최소화) 구현
+    * **System Architecture:** UI(Pi A)와 제어부(Pi B) 간 OS 차이를 극복하기 위해 **Node.js 기반 소켓 통신** 프로토콜 설계
+    * **Tech Leadership:** 하드웨어 전압 이슈 해결을 위해 **GPIO 연결 표준 기술 문서 작성 및 공유**, 팀 협업 효율 증대
+* **My Tech Stack:**
+    ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white)
+    ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+* **👉 [View Repository](/LUMOS-Chatbot-Repo)**
 
 ---
 
