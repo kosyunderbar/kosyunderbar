@@ -27,15 +27,14 @@
 ### 1. 🎓 LUMOS: 대학 생활 맞춤형 AI 챗봇 (AI & MSA)
 > **다기능 통합 AI(Dialogflow + GPT) 챗봇과 MSA 아키텍처를 적용한 개인화된 대학생활 도우미**
 
-
 * **프로젝트 기간:** 2024.04 ~ 2024.08 (졸업작품)
 * **수상 내역:** AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등🏆
 * **역할:** **팀 리더, 기능 구현 & AI Engineer**
-    * MSA 아키텍처 설계 및 Django Microservice 전담 개발
-    * Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning) 구축
-    * 사용자 역량(TECH) 기반 맞춤형 강의 추천 알고리즘 설계 및 구현
-    * Dialogflow를 활용한 AI 챗봇 설계 및 구현
-    * 챗봇 학습과 파인 튜닝, 추천시스템에 필요한 데이터 수집 및 가공
+    * **MSA 아키텍처 설계** 및 Django Microservice 전담 개발
+    * **Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning)** 구축
+    * 사용자 역량(TECH) 기반 **맞춤형 강의 추천 알고리즘** 설계 및 구현
+    * **Dialogflow를 활용한 AI 챗봇** 설계 및 구현
+    * 챗봇 학습과 파인 튜닝, 추천시스템에 필요한 **데이터 수집 및 전처리** 수행
 * **My Tech Stack:**
     ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
     ![Dialogflow](https://img.shields.io/badge/Dialogflow-FF9800?style=flat-square&logo=dialogflow&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
