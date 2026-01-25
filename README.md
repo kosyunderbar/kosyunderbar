@@ -99,7 +99,6 @@
 * **Tech:** `Python` `Django` `OpenCV` `TensorFlow` `Firebase`
 
 <br>
----
 
 ## 📜 Certificate & Language
 | Type | Title | Score / Status | Authority |
