@@ -112,10 +112,9 @@
 <div align="center">
   <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kosyunderbar&layout=compact&theme=gotham" height="160" alt="Top Langs" />
-  <img src="https://github-readme-stats.vercel.app/api?username=kosyunderbar&show_icons=true&theme=gotham" height="160" alt="Stats" />
 </div>
 
 <br>
 <div align="center">
-  📫 Contact: <a href="mailto:본인이메일@gmail.com">본인이메일@gmail.com</a>
+  📫 Contact: <a href="mailto:본인이메일@gmail.com">kosy6410@naver.com</a>
 </div>
