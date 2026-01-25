@@ -58,16 +58,20 @@
 
 ---
 
-### 3. 🧩 Algorithm & CS Study: 꾸준한 엔지니어링 학습 기록
-> **기초 체력을 다지기 위한 알고리즘 문제 풀이 및 인프라 실습 아카이브**
+### 3. 🖼️ Pure C Image Processing Engine: 패턴 인식 및 영상처리 (Low-level Dev)
+> **OpenCV 없이 순수 C언어로 구현한 경량 영상처리 알고리즘 라이브러리**
 
-* **Algorithm:**
-    * `Java` 및 `C++` 활용 백준/프로그래머스 문제 풀이 (자료구조, 탐색, DP 등)
-    * 문제 해결 과정과 최적화 코드 기록
-* **Linux Infra:**
-    * VMware 기반 리눅스(Ubuntu) 가상 환경 구축 실습
-    * 서버 운영 명령어, 네트워크 설정, 트러블 슈팅 내역 문서화
-* **👉 [Algorithm Repo](/Algorithm-Study)** | **👉 [Linux Lab Repo](/Linux-Infra-Lab)**
+* **Period:** 2025.06 ~ 2025.08 (개인 프로젝트)
+* **Role:** **Individual Developer (100% Contribution)**
+    * **Zero-Dependency:** 라이브러리 없이 `BITMAP` 헤더 파싱부터 픽셀 제어(Pointer Arithmetic)까지 **Pure C**로 직접 구현 (1,900 lines)
+    * **Optimization (Memory):** 임베디드 환경의 Stack Overflow 방지를 위해 재귀 호출 없는 **Custom Stack 기반의 DFS 알고리즘(Grassfire Labeling)** 설계
+    * **Geometric Logic:** 회전/확대 시 발생하는 홀(Hole) 현상 방지를 위해 **역방향 사상(Reverse Mapping)** 알고리즘 적용 및 검증
+    * **Algorithm Implementation:**
+        * **Morphology:** Zhang-Suen 세선화(Thinning), 침식/팽창 연산 구현
+        * **Filtering:** Gonzalez 자동 임계값(Threshold) 계산, Median Filter (Bubble Sort 기반)
+* **Tech Stack:**
+    ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+* **👉 [View Project Repository](/Pattern-Recognition-Repo)**
 
 <br>
 ---
