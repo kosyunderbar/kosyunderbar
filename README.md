@@ -1,13 +1,11 @@
 <div align="center">
-  
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=435&lines=Hi,+I'm+a+Future+Automation+Engineer;Welcome+to+My+Engineering+Log;Building+Smart+Factory+Solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=435&lines=kosyunderbar;Bridging+Hardware+and+Cloud;Building+Robust+Systems" alt="Typing SVG" />
   </a>
-
-  <h3> 🚀 "데이터로 현장을 제어하는 엔지니어, OOO입니다." </h3>
+  <h3> ⚡ "하드웨어에서 소프트웨어로, 경계를 넘나드는 엔지니어 OOO입니다." </h3>
   <p>
-    Factory Automation | Linux & Infra | Embedded System <br>
-    제조 현장의 디지털 전환(DX)을 위한 HW/SW 융합 기술을 공부합니다.
+    System Programming | C/C++ & Java | Embedded Software <br>
+    새로운 기술을 빠르게 습득하여 서비스와 시스템에 창의적으로 적용하는 것을 즐깁니다.
   </p>
 </div>
 
