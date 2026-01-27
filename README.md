@@ -105,10 +105,7 @@
 | **어학** | **TOEIC** | 885 | ETS |
 | **어학** | **OPIc** | IH | ACTFL |
 
-<div align="center">
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kosyunderbar&layout=compact&theme=gotham" height="160" alt="Top Langs" />
-</div>
+
 
 <br>
 <div align="center">
