@@ -36,7 +36,7 @@
 * **My Tech Stack:**
     ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
     ![Dialogflow](https://img.shields.io/badge/Dialogflow-FF9800?style=flat-square&logo=dialogflow&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-* **👉 [View Repository](/LUMOS-Chatbot-Repo)**
+* **👉 [View Repository](/LUMOS-Description)**
 ---
 
 ### 2. ♻️ 캠퍼스환경지킴이: AI 기반 재활용 자동화 머신 (Embedded & AI)
@@ -69,7 +69,7 @@
         * **Filtering:** Gonzalez 자동 임계값(Threshold) 계산, Median Filter (Bubble Sort 기반)
 * **Tech Stack:**
     ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-* **👉 [View Project Repository](/Pattern-Recognition-Repo)**
+* **👉 [View Project Repository](/Pattern-Recognize-Project)**
 * 
 <br>
 
