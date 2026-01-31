@@ -2,7 +2,7 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=435&lines=kosyunderbar;Bridging+Hardware+and+Software;" alt="Typing SVG" />
   </a>
-  <h3> ⚡ "하드웨어에서 소프트웨어로, 경계를 넘나드는 엔지니어 고성윤입니다." </h3>
+  <h3> ⚡ "소프트웨어로 경계를 넘나드는 엔지니어 고성윤입니다." </h3>
   <p>
     System Programming | C/C++ & Java | Embedded Software <br>
     새로운 기술을 빠르게 습득하여 서비스와 시스템에 적용해봅니다!
