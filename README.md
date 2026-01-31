@@ -69,7 +69,7 @@
         * **Filtering:** Gonzalez 자동 임계값(Threshold) 계산, Median Filter (Bubble Sort 기반)
 * **Tech Stack:**
     ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-* **👉 [View Project Repository]([https://github.com/kosyunderbar/Pattern-Recognize-Project])**
+* **👉 [View Project Repository]([/Pattern-Recognize-Project])**
 <br>
 
 ---
