@@ -52,7 +52,7 @@
 * **My Tech Stack:**
     ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white)
     ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-* **👉 [View Repository](/LUMOS-Chatbot-Repo)**
+* **👉 [View Repository](/https://github.com/kosyunderbar/Capstone-AI-Recycling-Bot)**
 
 ---
 
