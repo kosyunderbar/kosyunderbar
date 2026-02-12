@@ -84,6 +84,7 @@
     * 2023년 초 **ChatGPT API** 등장 직후, **Google Cloud Vision(OCR)**과 결합하여 '촬영된 코드 이미지'를 텍스트로 변환하고 AI가 디버깅해주는 파이프라인 구축
     * 최신 AI 기술을 모바일(APP) 환경에 빠르게 적용하여 프로토타입 완성
 * **Tech:** `Flutter` `Dart` `OpenAI API` `Google Cloud Vision API`
+* **👉 [View Final Report](https://drive.google.com/file/d/1RhtEUdEpUjk9g2sI9vFQiIVYkYff8rcE/view?usp=drive_link)**
 
 <br>
 
@@ -94,7 +95,8 @@
     * **Django** 백엔드와 **Firebase(NoSQL)**를 연동하여 이미지 처리 이력 관리 및 고속 데이터 입출력 시스템 구축
     * **4대 핵심 기능 통합:** Neural Style Transfer(TensorFlow), 초해상도 복원(CNN), 파노라마 스티칭(OpenCV), 스케치 변환 기능을 하나의 웹 플랫폼으로 서빙
 * **Tech:** `Python` `Django` `OpenCV` `TensorFlow` `Firebase`
-
+* **👉 [View Final Report](https://drive.google.com/file/d/12HLZZRPIO_XaaQbGT7RlUu4QeonH7_Ez/view?usp=drive_link)**
+* 
 <br>
 
 ## 📜 Certificate & Language
