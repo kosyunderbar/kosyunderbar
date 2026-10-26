@@ -1,115 +1,111 @@
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F80ED&center=true&vCenter=true&width=435&lines=kosyunderbar;Bridging+Hardware+and+Software;" alt="Typing SVG" />
-  </a>
-  <h3> ⚡ "소프트웨어로 경계를 넘나드는 엔지니어 고성윤입니다." </h3>
-  <p>
-    System Programming | C/C++ & Java | Embedded Software <br>
-    새로운 기술을 빠르게 습득하여 서비스와 시스템에 적용해봅니다!
-  </p>
-</div>
+# 안녕하세요, 고성윤입니다.
+
+현재 **삼성청년SW·AI아카데미(SSAFY) 16기 임베디드 트랙**에서 교육을 받고 있습니다.<br>
+소프트웨어로 실제 장치를 움직이고, 서로 다른 시스템을 연결하는 데 관심이 있습니다.
+
+[Email](mailto:kosy6410@naver.com) · [GitHub](https://github.com/kosyunderbar)
+
+## 프로젝트
+
+### 가상 제조공장 관제와 3D Factory
+
+공정 사이를 이동하는 차체와 운반 차량을 모델링하고, 생산 데이터의 수집·이력 조회·관제를 연결했습니다. 기본 관제 시스템을 만든 뒤, 공장과 차량의 움직임을 살펴볼 수 있도록 3D로 확장했습니다. 공장의 동작과 센서 상태는 Python 모델로 생성합니다.
+
+[![3D Factory의 AGV 추적 시점](assets/factory-3d.png)](https://github.com/kosyunderbar/3Dfactory)
+
+<sub>3D 관제 실행 화면 — 차체를 운반하는 AGV의 추적 시점</sub>
+
+**기본 관제 · Smart Factory**
+
+- 눈에 보이는 빈자리도 이동 중인 차체의 목적지일 수 있어, 대기량과 예약량을 함께 계산해 배차 여부를 결정했습니다.
+- 데이터를 받았다는 응답과 관제에 반영됐다는 사실을 구분했습니다. 원본과 전달 대기 정보를 함께 저장하고, 재전송된 보고가 실적을 중복 증가시키지 않도록 처리했습니다.
+- 기본 버전에서 차체 100대의 작업·검사·운송 기록을 대조하고, 통신 단절과 서비스·DB 재시작 이후의 전달·반영을 검증했습니다.
+
+**3D 확장 · 3D Factory**
+
+- Three.js로 설비와 차량을 표현하고, AGV·AMR의 이동 경로·적재 상태와 차량 추적 시점을 연결했습니다.
+- 통로 예약·양보와 AMR의 부품 보급을 모델링했습니다. 부품 재고는 배송 완료 시 증가하고 조립 시작 시 소비하도록 구분했습니다.
+- 설비 고장 시 작업 진행량을 보존하고, 사용자의 점검·조치 이후 남은 작업을 이어가도록 했습니다.
+
+요구사항과 공정 규칙을 정의하고 결과를 검토했으며, AI 개발 보조를 활용해 구현·검증을 진행했습니다.
+
+`Java` `Spring Boot` `PostgreSQL` `Python` `Vue 3` `Three.js` `TCP` `REST / SSE`
+
+[기본 관제 저장소](https://github.com/kosyunderbar/smartfactorysimul) · [3D 확장 저장소](https://github.com/kosyunderbar/3Dfactory)
 
 ---
 
-### 🛠️ Tech Stack
-| Category | Stack |
+### 캠퍼스 환경 지킴이
+
+**2023.04 – 2023.10 · 팀 리더 / SW·AI·장치 제어**
+
+카메라로 재활용품을 인식하고, 종류에 맞춰 분류·압축·파쇄 장치를 구동한 융합 캡스톤 프로젝트입니다. 기계·전기 전공 팀원들과 함께 제작했습니다.
+
+- 실제 투입 환경에서 촬영한 데이터를 수집·증강해 YOLOv5를 학습하고, 인식 결과를 GPIO·모터 드라이버·릴레이 동작으로 연결했습니다.
+- UI와 제어를 담당하는 두 Raspberry Pi 사이의 통신이 불안정해, Node.js 소켓 서버로 연결 구조를 바꿨습니다.
+- 팀원들이 각자 장치를 테스트할 수 있도록 GPIO 연결·전압 기준과 SW 동작 순서를 가이드로 정리했습니다.
+
+LINC 3.0 캡스톤디자인 경진대회 수상
+
+`Python` `YOLOv5` `Raspberry Pi` `GPIO` `Node.js` `Linux`
+
+[저장소](https://github.com/kosyunderbar/Capstone-AI-Recycling-Bot)
+
+---
+
+### LUMOS
+
+**2024.04 – 2024.08 · 팀 리더 / AI·데이터 / Django 서비스 개발**
+
+학사 정보 질의응답과 개인별 강의 추천을 제공하는 대학 생활 도우미입니다. AI·추천 기능을 맡은 Django 서비스와 메인 Spring Boot 백엔드를 REST API로 연결했습니다.
+
+- 사용자 질문을 Dialogflow로 분류하고, 강의 추천·졸업 요건 조회·GPT 응답으로 처리 경로를 나눴습니다.
+- 강의와 사용자 TECH 역량 데이터를 바탕으로 가중치 기반 추천 로직을 설계했습니다. 추천에 반영되는 기준을 직접 조정할 수 있도록 구성했습니다.
+- 팀원들이 서비스 완성을 기다리지 않고 연동 개발을 진행할 수 있도록 JSON 명세와 목업 서버를 공유했습니다.
+
+AISW 졸업작품 전시회 최우수상 · 컴퓨터공학부 졸업작품 1위
+
+`Python` `Django` `MySQL` `Dialogflow` `GPT API` `Postman`
+
+[저장소](https://github.com/kosyunderbar/LUMOS-Description)
+
+---
+
+### Pure C Image Processing
+
+**2025.06 – 2025.08 · 개인 프로젝트**
+
+OpenCV 없이 C로 BMP 파일을 읽고 픽셀을 다루며, 영상처리 알고리즘을 구현했습니다.
+
+- 연결된 영역을 찾는 DFS에서 재귀 호출을 명시적 스택으로 바꿔 호출 스택 사용을 줄였습니다.
+- 회전·확대 시 픽셀이 비는 문제를 다루기 위해, 출력 좌표에서 원본 좌표를 찾는 역방향 사상을 적용했습니다.
+- Zhang-Suen 세선화, 침식·팽창, 자동 임계값 계산과 미디언 필터를 구현했습니다.
+
+`C` `BMP` `Image Processing`
+
+[저장소](https://github.com/kosyunderbar/Pattern-Recognize-Project)
+
+## 그 외 작업
+
+**CodifyNow** · 2023.04 – 2023.06 · 팀 리더<br>
+촬영한 코드 이미지를 OCR로 변환하고 GPT API로 분석·수정하는 모바일 앱입니다.<br>
+`Flutter` `Dart` `Google Cloud Vision` `GPT API` · [보고서](https://drive.google.com/file/d/1RhtEUdEpUjk9g2sI9vFQiIVYkYff8rcE/view)
+
+**AI Vision Web** · 2023.09 – 2023.12 · 팀 프로젝트<br>
+스타일 변환·초해상도·파노라마·스케치 기능과 이미지 처리 이력 관리를 연결한 웹 서비스입니다.<br>
+`Django` `OpenCV` `TensorFlow` `Firebase` · [보고서](https://drive.google.com/file/d/12HLZZRPIO_XaaQbGT7RlUu4QeonH7_Ez/view)
+
+## 사용 기술
+
+| 분야 | 기술 |
 | :--- | :--- |
-| **Languages** | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **System & OS** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white) |
-| **Frameworks & AI** | ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) |
+| 언어 | C, C++, Java, Python, JavaScript |
+| 장치·운영체제 | Raspberry Pi, GPIO, PWM, Linux |
+| 서버·데이터 | Spring Boot, Django, PostgreSQL, MySQL |
+| 화면·시각화 | Vue 3, Three.js, Apache ECharts |
+| 개발 도구 | Git, Docker Compose, Postman |
 
-<br>
+## 자격·어학
 
-## 🏆 Key Projects
-
-### 1. 🎓 LUMOS: 대학 생활 맞춤형 AI 챗봇 (AI & MSA)
-> **다기능 통합 AI(Dialogflow + GPT) 챗봇과 MSA 아키텍처를 적용한 개인화된 대학생활 도우미**
-
-* **프로젝트 기간:** 2024.04 ~ 2024.08 (졸업작품)
-* **수상 내역:** AISW 졸업작품 전시회 최우수상 수상 및 컴퓨터공학부 1등 🏆
-* **역할:** **팀 리더, 기능 구현 & AI Engineer**
-    * **MSA 아키텍처 설계** 및 Django Microservice 전담 개발
-    * **Hybrid AI 파이프라인(Dialogflow ↔ GPT-4 Fine-tuning)** 구축
-    * 사용자 역량(TECH) 기반 **맞춤형 강의 추천 알고리즘** 설계 및 구현
-    * **Dialogflow를 활용한 AI 챗봇** 설계 및 구현
-    * 챗봇 학습과 파인 튜닝, 추천시스템에 필요한 **데이터 수집 및 전처리** 수행
-* **My Tech Stack:**
-    ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-    ![Dialogflow](https://img.shields.io/badge/Dialogflow-FF9800?style=flat-square&logo=dialogflow&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-* **👉 [View Repository](https://github.com/kosyunderbar/LUMOS-Description)**
----
-
-### 2. ♻️ 캠퍼스환경지킴이: AI 기반 재활용 자동화 머신 (Embedded & AI)
-> **YOLOv5 Vision AI와 Raspberry Pi를 융합한 컵 자동 분류 및 처리 로봇**
-
-* **프로젝트 기간:** 2023.04 ~ 2023.10 
-* **수상 내역:** LINC 3.0 캡스톤디자인 경진대회 수상 🏆
-* **역할:** **팀 리더, SW & Embedded Engineer**
-    * **AI Model Engineering:** 현장의 데이터(쓰레기 데이터 등) 수집 및 증강(Augmentation)을 통한 **YOLOv5** 최적화 (종이/플라스틱 분류)
-    * **Real-time Control:** 센서 감지 → AI 판단 → **GPIO/L298N 모터 제어**로 이어지는 실시간 분류 로직(Latency 최소화) 구현
-    * **System Architecture:** UI(Pi A)와 제어부(Pi B) 간 OS 차이를 극복하기 위해 **Node.js 기반 소켓 통신** 프로토콜 설계
-    * **Tech Leadership:** 하드웨어 전압 이슈 해결을 위해 **GPIO 연결 표준 기술 문서 작성 및 공유**, 팀 협업 효율 증대
-* **My Tech Stack:**
-    ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white)
-    ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-* **👉 [View Repository](/https://github.com/kosyunderbar/Capstone-AI-Recycling-Bot)**
-
----
-
-### 3. 🖼️ Pure C Image Processing Engine: 패턴 인식 및 영상처리 (Low-level Dev)
-> **OpenCV 없이 순수 C언어로 구현한 경량 영상처리 알고리즘 라이브러리**
-
-* **Period:** 2025.06 ~ 2025.08 (개인 프로젝트)
-* **Role:** **Individual Developer (100% Contribution)**
-    * **Zero-Dependency:** 라이브러리 없이 `BITMAP` 헤더 파싱부터 픽셀 제어(Pointer Arithmetic)까지 **Pure C**로 직접 구현 (1,900 lines)
-    * **Optimization (Memory):** 임베디드 환경의 Stack Overflow 방지를 위해 재귀 호출 없는 **Custom Stack 기반의 DFS 알고리즘(Grassfire Labeling)** 설계
-    * **Geometric Logic:** 회전/확대 시 발생하는 홀(Hole) 현상 방지를 위해 **역방향 사상(Reverse Mapping)** 알고리즘 적용 및 검증
-    * **Algorithm Implementation:**
-        * **Morphology:** Zhang-Suen 세선화(Thinning), 침식/팽창 연산 구현
-        * **Filtering:** Gonzalez 자동 임계값(Threshold) 계산, Median Filter (Bubble Sort 기반)
-* **Tech Stack:**
-    ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-* **👉 [View Project Repository](https://github.com/kosyunderbar/Pattern-Recognize-Project)**
-<br>
-
----
-
-## 📂 Other Projects
-
-### 📱 CodifyNow: AI 코드 분석 및 수정 앱 (UI/UX Programming)
-> **GPT-3.5 API와 Google Cloud Vision을 융합한 초기 생성형 AI 모바일 서비스**
-* **Role:** **Team leader**
-* **Period:** 2023.04 ~ 2023.06 (팀 프로젝트)
-* **주요 내용 (#Early Adopter):**
-    * 2023년 초 **ChatGPT API** 등장 직후, Google Cloud Vision(OCR)과 결합하여 '촬영된 코드 이미지'를 텍스트로 변환하고 AI가 디버깅해주는 파이프라인 구축
-    * 최신 AI 기술을 모바일(APP) 환경에 빠르게 적용하여 프로토타입 완성
-* **Tech:** `Flutter` `Dart` `OpenAI API` `Google Cloud Vision API`
-* **👉 [View Final Report](https://drive.google.com/file/d/1RhtEUdEpUjk9g2sI9vFQiIVYkYff8rcE/view?usp=drive_link)**
-
-<br>
-
-### 🖥️ AI Vision Web: 웹 기반 통합 이미지 처리 플랫폼 (Computer Vision)
-> **Deep Learning(NST, Super-Resolution)과 OpenCV 기능을 통합한 웹 서비스**
-* **Period:** 2023.09 ~ 2023.12 (팀 프로젝트)
-* **주요 내용 (#Full-Stack Integration):**
-    * **Django** 백엔드와 Firebase(NoSQL)를 연동하여 이미지 처리 이력 관리 및 고속 데이터 입출력 시스템 구축
-    * **4대 핵심 기능 통합:** Neural Style Transfer(TensorFlow), 초해상도 복원(CNN), 파노라마 스티칭(OpenCV), 스케치 변환 기능을 하나의 웹 플랫폼으로 서빙
-* **Tech:** `Python` `Django` `OpenCV` `TensorFlow` `Firebase`
-* **👉 [View Final Report](https://drive.google.com/file/d/12HLZZRPIO_XaaQbGT7RlUu4QeonH7_Ez/view?usp=drive_link)**
-  
-<br>
-
-## 📜 Certificate & Language
-| Type | Title | Score / Status | Authority |
-| :--- | :--- | :--- | :--- |
-| **자격증** | **정보처리기사** | 취득 | 한국산업인력공단 |
-| **자격증** | **SQLD (SQL 개발자)** | 취득 | 한국데이터산업진흥원 |
-| **어학** | **TOEIC** | 885 | ETS |
-| **어학** | **OPIc** | IH | ACTFL |
-
-
-
-<br>
-<div align="center">
-  📫 Contact: <a href="mailto:본인이메일@gmail.com">kosy6410@naver.com</a>
-</div>
+정보처리기사 · SQLD<br>
+TOEIC 885 · OPIc IH
