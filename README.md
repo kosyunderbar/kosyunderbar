@@ -94,7 +94,7 @@
 
 ### 🔬 Pure C Image Processing
 
-**2025.06 – 2025.08 · 개인 프로젝트**
+**2024.08 – 2024.10 · 개인 프로젝트**
 
 ![C](https://img.shields.io/badge/C-30363D?style=flat-square&logo=c&logoColor=A8B9CC)
 
